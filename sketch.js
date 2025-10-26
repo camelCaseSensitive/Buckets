@@ -100,56 +100,7 @@ canvas_dom.addEventListener("touchcancel", function(event) {event.preventDefault
   // })
 }
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyAUxiHPaADIslLEdWehz0P2h1SZIJFTiOI",
-//   authDomain: "buckets-3e752.firebaseapp.com",
-//   projectId: "buckets-3e752",
-//   storageBucket: "buckets-3e752.appspot.com",
-//   messagingSenderId: "696727440145",
-//   appId: "1:696727440145:web:b6c117909395a23f239ab0"
-// };
-// // console.log("Firebase: " + firebase)
-// firebase.initializeApp(firebaseConfig)
-// // Initialize Firebase
-// const db = firebase.firestore();
-// db.settings( {timestampsInSnapshots : true} );
-// db.collection('leaderboard').get().then((snapshot) => {
-//     // console.log(snapshot.docs)
-//     snapshot.docs.forEach(doc => {
-//       let d = doc.data();
-//       // console.log(d.name)
-//       if(d.name != "name"){
-//         leaderboard.push([d.score, d.name]);
-//       } 
-//       // else {
-//       //   doc.ref.delete();
-//       // }
-// //       if(d.score == 0){
-// //         doc.ref.delete();
-        
-// //       }
-//   })
-//   // console.log(leaderboard)
-//   let leaderArray = order(leaderboard);
-//   for(let i = 0; i < leaderArray.length; i++){
-//     // console.log(leaderArray[i])
-//     // Find a <table> element with id="myTable":
-//     let table = document.getElementById("leader");
 
-//     // Create an empty <tr> element and add it to the 1st position of the table:
-//     let row = table.insertRow(i+1);
-
-//     // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
-//     let cell1 = row.insertCell(0);
-//     let cell2 = row.insertCell(1);
-//     let cell3 = row.insertCell(2);
-
-//     // Add some text to the new cells:
-//     cell1.innerHTML = i + 1;
-//     cell2.innerHTML = leaderArray[i][1];
-//     cell3.innerHTML = leaderArray[i][0];
-//   }
-// });
 
 let docId = "";
 let docScore = 0;
