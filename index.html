@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <h1>BUCKETS</h1>
+    <div id="sketch-holder">
+    </div>
+    <form id="score" action="javascript:void(0);">
+      <label id="best">High Score: 0</label>
+      <input type="text" id="name" placeholder="name / initials" required>
+      <input type="submit" onclick="submitScore()">
+    </form>
+<!--     <div id="leaderboard">
+      <div id="leader-container">
+        <h2>LEADERBOARD</h2>
+        <table id="leader">
+          <tr>
+            <th>RANK</th>
+            <th>PLAYER</th>
+            <th>SCORE</th>
+          </tr>
+        </table>
+      </div>
+    </div> -->
+    <hr>
+    <div id="footer">
+      <a href="https://github.com/camelCaseSensitive" target="_blank">camelCaseSensitive</a>
+    </div>
+    <script src="sketch.js"></script>
+    <script type="application/ld+json">{
+      "@context": "Buckets",
+      "@type": "Game",
+      "url": "https://editor.p5js.org/rjgilmour/sketches/uCw6P5waj",
+      "name": "Buckets",
+      "alternateName": null
+  }</script><script type="application/ld+json">{
+      "@context": "Buckets",
+      "@type": "Online Game",
+      "image": "https://imgur.com/gallery/iHYA9St",
+      "name": "Buckets",
+      "logo": "https://imgur.com/gallery/HLSn5NS",
+      "thumbnail": "https://imgur.com/gallery/HLSn5NS",
+      "description": "Free online and mobile basketball shooter game.  Try to get as many as you can in a row and post your high score to the leadrboard!",
+      "url": "https://editor.p5js.org/rjgilmour/sketches/uCw6P5waj",
+  }</script>
+  </body>
+</html>

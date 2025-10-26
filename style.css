@@ -1,0 +1,127 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: rgb(70,70,70);
+}
+
+.container {
+  display: flex;
+}
+
+#best {
+  padding: 0 10px 0 10px;
+  color: gold;
+  font-size: 1em;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+h1 {
+  color: gold;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  letter-spacing: 0.5em;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#name {
+  padding: 0 10px 0 10px;
+
+}
+
+#sketch-holder {
+/*   border: 2px red solid; */
+  display: flex;
+  justify-content: center;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#score {
+/*   border: 2px red solid; */
+  padding: 10px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 2em;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+canvas {
+  border: 10px solid gold;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#leaderboard {
+  width: 70vw;
+  margin: auto;
+  background: rgba(0,0,0,0.6);
+}
+
+#leader-container {
+  margin: 10px;
+  padding: 0px 10px 5px 5px;
+}
+
+h2 {
+  color: #ED225D;
+  text-align: center;
+  font-size: 2.25em;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  letter-spacing: 0.5em;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+table {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 1.35em;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  letter-spacing: 0.5em;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+th {
+  text-decoration: underline;
+}
+
+hr {
+  color: white;
+  margin: 20px 0px 20px 0px;
+}
+
+#footer {
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: left;
+}
+
+a {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 1.3em;
+  color: lightgray;
+}
+a:hover {
+  color: white;
+}
